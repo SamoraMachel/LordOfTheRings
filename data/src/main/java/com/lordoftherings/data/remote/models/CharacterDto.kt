@@ -1,6 +1,6 @@
 package com.lordoftherings.data.remote.models
 
-data class CharacterNetwork(
+data class CharacterDto(
     val _id: String,
     val birth: String,
     val death: String,

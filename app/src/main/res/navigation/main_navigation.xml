@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/bookFragment"
-        android:name="com.lordoftherings.ui.BookFragment"
+        android:name="com.lordoftherings.ui.HomeFragment"
         android:label="fragment_book"
         tools:layout="@layout/fragment_book" />
 </navigation>

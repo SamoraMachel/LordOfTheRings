@@ -10,7 +10,7 @@ import com.lordoftherings.R
 import com.lordoftherings.databinding.FragmentBookBinding
 import com.lordoftherings.shared.Constants
 
-class BookFragment : Fragment() {
+class HomeFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

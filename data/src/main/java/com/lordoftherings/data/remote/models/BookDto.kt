@@ -1,6 +1,6 @@
 package com.lordoftherings.data.remote.models
 
-data class BookNetwork(
+data class BookDto(
     val id : String,
     val name : String
 )

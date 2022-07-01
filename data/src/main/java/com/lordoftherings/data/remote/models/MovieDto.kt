@@ -1,6 +1,6 @@
 package com.lordoftherings.data.remote.models
 
-data class MovieNetwork(
+data class MovieDto(
     val _id: String,
     val academyAwardNominations: Int,
     val academyAwardWins: Int,

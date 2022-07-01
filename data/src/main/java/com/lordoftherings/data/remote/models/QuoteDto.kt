@@ -1,6 +1,6 @@
 package com.lordoftherings.data.remote.models
 
-data class QuoteNetwork(
+data class QuoteDto(
     val _id: String,
     val character: String,
     val dialog: String,

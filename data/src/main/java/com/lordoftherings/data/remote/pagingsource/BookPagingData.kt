@@ -4,7 +4,6 @@ import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import com.lordoftherings.data.remote.api.BookApi
 import com.lordoftherings.data.remote.mappers.toDomain
-import com.lordoftherings.data.remote.models.BookNetwork
 import com.lordoftherings.domain.models.BookDomain
 import java.io.IOException
 import javax.inject.Inject

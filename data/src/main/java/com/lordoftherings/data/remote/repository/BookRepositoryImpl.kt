@@ -6,13 +6,11 @@ import androidx.paging.PagingData
 import com.lordoftherings.data.remote.api.BookApi
 import com.lordoftherings.data.remote.mappers.toDomain
 import com.lordoftherings.data.remote.pagingsource.BookPagingData
-import com.lordoftherings.domain.models.BasePaging
 import com.lordoftherings.domain.models.BookDomain
 import com.lordoftherings.domain.models.ChapterDomain
 import com.lordoftherings.domain.models.Resource
 import com.lordoftherings.domain.repository.BookRepository
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.flow
 import java.io.IOException
 import javax.inject.Inject
 
@@ -49,7 +47,6 @@ class BookRepositoryImpl @Inject constructor(
             return when {
                 response.isSuccessful -> {
                     val bookData = response.body()!!
-
                     return Resource.Success(data = bookData.docs[0].toDomain())
                 }
                 else -> {

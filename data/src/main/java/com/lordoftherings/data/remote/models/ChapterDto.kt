@@ -1,6 +1,6 @@
 package com.lordoftherings.data.remote.models
 
-data class ChapterNetwork(
+data class ChapterDto(
     val _id: String,
     val chapterName: String
 )
