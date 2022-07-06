@@ -1,11 +1,9 @@
 package com.lordoftherings.ui.viewmodels
 
-import androidx.paging.PagingData
-import com.lordoftherings.domain.models.BookDomain
-import com.lordoftherings.domain.repository.BookRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+
 
 class HomeFragmentViewModel {
 
